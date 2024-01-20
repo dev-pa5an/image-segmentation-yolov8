@@ -1,4 +1,4 @@
-from ultralytics import YOLO
+from ultralytics import YOLOV8n
 
 model = YOLO('yolov8n-seg.pt')  # load a pretrained model (recommended for training)
 
