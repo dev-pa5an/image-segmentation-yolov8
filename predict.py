@@ -21,5 +21,5 @@ for result in results:
 
         mask = cv2.resize(mask, (W, H))
 
-        cv2.imwrite('./output.png', mask)
+        cv2.imwrite('./output.png', maskq)
 
